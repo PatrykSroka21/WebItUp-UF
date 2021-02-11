@@ -5,7 +5,7 @@
     padding: 20px 10px;
   }
   
-  /* Style the header links */
+  
   .header a {
     float: left;
     color: black;
@@ -17,31 +17,31 @@
     border-radius: 4px;
   }
   
-  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  
   .header a.logo {
     font-size: 25px;
     font-weight: bold;
     
   }
   
-  /* Change the background color on mouse-over */
+  
   .header a:hover {
-    background-color: #ddd;
+    
     color: black;
   }
   
-  /* Style the active/current link*/
+  
   .header a.active {
     background-color: dodgerblue;
     color: white;
   }
   
-  /* Float the link section to the right */
+  
   .header-right {
     float: right;
   }
   
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  
   @media screen and (max-width: 500px) {
     .header a {
       float: none;
@@ -64,8 +64,6 @@
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 0.25rem;
     width: 65%;
     padding-left: 30%;
     padding-top: 10px;
@@ -74,14 +72,14 @@
   
   
 
-  /* Style the header with a grey background and some padding */
+  
 .footer {
     overflow: hidden;
     background-color: #f1f1f1;
     padding: 20px 10px;
   }
   
-  /* Style the header links */
+  
   .footer a {
     float: left;
     color: black;
@@ -93,30 +91,30 @@
     border-radius: 4px;
   }
   
-  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  
   .footer a.logo {
     font-size: 25px;
     font-weight: bold;
   }
   
-  /* Change the background color on mouse-over */
+  
   .footer a:hover {
     background-color: #ddd;
     color: black;
   }
   
-  /* Style the active/current link*/
+  
   .footer a.active {
     background-color: dodgerblue;
     color: white;
   }
   
-  /* Float the link section to the right */
+  
   .footer-right {
     float: right;
   }
   
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  
   @media screen and (max-width: 500px) {
     .footer a {
       float: none; 
@@ -141,23 +139,23 @@ h1{
     box-sizing: border-box;
   }
   
-  /* Position the image container (needed to position the left and right arrows) */
+  
   .container {
     position: relative;
     padding-left: 15%;
   }
   
-  /* Hide the images by default */
+  
   .mySlides {
     display: none;
   }
   
-  /* Add a pointer when hovering over the thumbnail images */
+  
   .cursor {
     cursor: pointer;
   }
   
-  /* Next & previous buttons */
+  
   .prev,
   .next {
     cursor: pointer;
@@ -174,19 +172,19 @@ h1{
     -webkit-user-select: none;
   }
   
-  /* Position the "next button" to the right */
+  
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
   
-  /* On hover, add a black background color with a little bit see-through */
+  
   .prev:hover,
   .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
   
-  /* Number text (1/3 etc) */
+  
   .numbertext {
     color: #f2f2f2;
     font-size: 12px;
@@ -195,7 +193,7 @@ h1{
     top: 0;
   }
   
-  /* Container for image text */
+  
   .caption-container {
     text-align: center;
     background-color: #222;
@@ -209,13 +207,13 @@ h1{
     clear: both;
   }
   
-  /* Six columns side by side */
+  
   .column {
     float: left;
     width: 16.66%;
   }
   
-  /* Add a transparency effect for thumnbail images */
+  
   .demo {
     opacity: 0.6;
     
