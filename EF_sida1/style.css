@@ -66,10 +66,19 @@
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
-    width: 50%;
-    padding-left: 25%;
+    width: 35%;
+    padding-left: 30%;
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  img {
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  }
+  img:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 
   /* Style the header with a grey background and some padding */
@@ -125,3 +134,9 @@
       float: none;
     }
   }
+
+h1{
+  padding-top: 5%;
+  padding-left: 3%;
+  padding-right: 1%;
+}
