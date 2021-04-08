@@ -71,7 +71,7 @@ body{
   word-wrap: break-word;
   background-clip: border-box;
   width: 35%;
-  padding-left: 30%;
+  padding-left: 31%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -140,10 +140,15 @@ img:hover {
   }
 }
 
-h1{
-padding-top: 1%;
-padding-left: 30%;
-padding-right: 33%;
-text-align: center;
-color: black;
+.priceHeading{
+  width: 100%;
+  text-align: center;
+}
+
+.price{
+  
+ 
+  padding-left: 40%;
+  background: #e7e2e2 ;
+  
 }
